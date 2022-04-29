@@ -1,0 +1,34 @@
+#testimonial {
+    background:
+      /* top, transparent red, faked with gradient */
+    linear-gradient(
+        rgba(6, 28, 170, 0.45),
+        rgb(183, 14, 71)
+    ),
+      /* bottom, image */
+    url(../images/sky2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    }
+
+    .circle{
+        width: 20px !important;
+        aspect-ratio: 1 !important;
+        height: auto !important;
+        border-radius: 50% !important;
+    }
+
+    #container{
+        background:
+      /* top, transparent red, faked with gradient */
+    linear-gradient(
+        rgba(6, 28, 170, 0.45),
+        rgb(183, 14, 71)
+    ),
+      /* bottom, image */
+    url(../images/sky2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    }

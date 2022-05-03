@@ -7,11 +7,13 @@
     <title>About</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/ce754b3fc6.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- Navbar -->
     <section id="navbarr">
-    <nav class="navbar navbar-expand-sm navbar-primary bg-primary">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
         <div class="container bg-primary">
           <a class="navbar-brand bg-primary text-light ps-5 pe-4 pt-4 pb-4 my-1 display-4 fw-bold" href="#">Cassidy Manuel</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,10 +29,7 @@
               <a class="nav-link text-light fw-bold" href="skills.html">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light fw-bold" href="#">Education</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light fw-bold" href="#">Contact</a>
+              <a class="nav-link text-light fw-bold" href="contact.html">Contact</a>
             </li>
             </div>
           </div>
@@ -41,16 +40,16 @@
     <section id="container">
     <div class="container text-start text-white border-3 py-1 pb-3">
         <div class="row text-start">
-            <div class="col-md-5 text-white text-center ps-4 pe-4">
+            <div class="col-md-5 text-white">
                 <p></p>
                 <p>
-                    <img src="./images/Cassidy (1).JPG" class="rounded" alt="me" height="590px" width="470px">
+                    <img class="imgme" src="./images/Cassidy (1).JPG" class="rounded" alt="me" style="height: 100%;">
                 </p>
             </div>
-            <div class="col-md-6 text-white ps-4 pe-4">
+            <div class="col-md-6 text-white">
                 <h3 class="display-5 text-white">Hi there! I'm Cassidy Manuel</h3>
                 <h5 class="display-7 text-white">Web developer</h5>
-                <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut iste nihil culpa numquam quisquam consequuntur ipsum eligendi velit, itaque placeat nobis inventore fuga animi odio soluta distinctio aperiam accusamus officiis.</p>
+                <p class="lead">I am 19 years old and currently a student at Life Choices Coding Academy. I am a team player, a cheery person and I am always positive. I make sure to always celebrate the little things in life.I pay close attention to details and time management is really important to me.</p>
                 <p class="lead">Birthday : 01-04-2003</p>
                 <p class="lead">Phone : 063 833 8384</p>
                 <p class="lead">Email : cassidymanuel.59@gmail.com</p>
@@ -111,56 +110,52 @@
     </section>
     <section id="projects" class="py-5 text-center">
         <div class="container">
-            <h2 class="mb-5 text-white">Projects</h2>
+            <h2 class="mb-5 text-white display-4">Projects</h2>
             <div class="project-container">
                 <img
-                data-bs-toggle="modal" data-bs-target="#exampleModal" src="https://picsum.photos/600?random=1"
-                 />
-                <img data-bs-toggle="modal" data-bs-target="#exampleModal2" src="https://picsum.photos/600/900?random=2" />
+                data-bs-toggle="modal" data-bs-target="#exampleModal" src="./images/rainbow.png"
+                />
+                <img data-bs-toggle="modal" data-bs-target="#exampleModal2" src="./images/calculator.png" />
                 <img data-bs-toggle="modal" data-bs-target="#exampleModal3"
-                 src="https://picsum.photos/600/800?random=3" />
-                <img data-bs-toggle="modal" data-bs-target="#exampleModal4" src="https://picsum.photos/400/750?random=4" />
-                <img data-bs-toggle="modal" data-bs-target="#exampleModal5" src="https://picsum.photos/400?random=5" />
-                <img data-bs-toggle="modal" data-bs-target="#exampleModal6" src="https://picsum.photos/600/400?random=6" />
-                <img data-bs-toggle="modal" data-bs-target="#exampleModal7" src="https://picsum.photos/700?random=7" />
-                <img data-bs-toggle="modal" data-bs-target="#exampleModal8" src="https://picsum.photos/750/450?random=8" />
-                <img data-bs-toggle="modal" data-bs-target="#exampleModal9" src="https://picsum.photos/600?random=9" />
+                src="./images/form.png" />
+                <img data-bs-toggle="modal" data-bs-target="#exampleModal4" src="./images/website.png" />
+                <img data-bs-toggle="modal" data-bs-target="#exampleModal5" src="./images/portfolio.png" />
 
                 <!-- Modal -->
             </div>
         </div>
     </section>
-    <div class="modal fade" 
+    <div class="modal fade"
     id="exampleModal"
-     tabindex="-1" 
-     aria-labelledby="exampleModalLabel" 
+     tabindex="-1"
+     aria-labelledby="exampleModalLabel"
     aria-hidden="true">
     
         <div class="modal-dialog mw-100 p-5">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Project 1</h5>
+              <h5 class="modal-title" id="exampleModalLabel">Rainbow</h5>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
               <div class="container">
                   <div class="row">
                       <div class="col-md-6">
-                        <img class="img-fluid" src="https://picsum.photos/600?random=1"
+                        <img class="img-fluid" src="./images/rainbow.png"
                          />
                       </div>
                       <div class="col-md-6 text-start">
-                          <h4>Project 1</h4>
+                          <h4>Rainbow</h4>
                         <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore dicta id vel explicabo voluptas cum commodi delectus neque repellat distinctio corrupti obcaecati fuga sequi suscipit, earum ipsam ad labore. Sequi.
+                            Checkout the cool Rainbow that I created.
                         </p>
                       </div>
                   </div>
               </div>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+              <button type="button" class="btn btn-secondary " data-bs-dismiss="modal">Close</button>
+                <a href="https://github.com/cassidymanuel01/rainbow.git" class="btn btn-primary ">GitHub</a>
             </div>
           </div>
         </div>
@@ -176,20 +171,20 @@
         <div class="modal-dialog mw-100 p-5">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Project 2</h5>
+              <h5 class="modal-title" id="exampleModalLabel">Calculator</h5>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
               <div class="container">
                   <div class="row">
                       <div class="col-md-6">
-                        <img class="img-fluid" src="https://picsum.photos/600/900?random=2"
+                        <img class="img-fluid" src="./images/calculator.png"
                          />
                       </div>
                       <div class="col-md-6 text-start">
-                          <h4>Project 2</h4>
+                          <h4>Calculator</h4>
                         <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore dicta id vel explicabo voluptas cum commodi delectus neque repellat distinctio corrupti obcaecati fuga sequi suscipit, earum ipsam ad labore. Sequi.
+                           
                         </p>
                       </div>
                   </div>
@@ -197,7 +192,7 @@
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+              <a href="https://github.com/cassidymanuel01/calculator-new.git" class="btn btn-primary ">GitHub</a>
             </div>
           </div>
         </div>
@@ -214,7 +209,7 @@
     <div class="modal-dialog mw-100 p-5">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Project 3</h5>
+          <h5 class="modal-title" id="exampleModalLabel">My First Webpage</h5>
           <button
             type="button"
             class="btn-close"
@@ -228,19 +223,13 @@
               <div class="col-md-6">
                 <img
                   class="img-fluid"
-                  src="https://picsum.photos/600/800?random=3"
+                  src="./images/form.png"
                 />
               </div>
               <div class="col-md-6">
-                <h4>Project 3</h4>
+                <h4>My First Webpage</h4>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Eveniet facere officiis, impedit esse fugit reprehenderit
-                  sit, nostrum possimus veritatis quisquam harum quas quo
-                  rerum beatae obcaecati qui, ex ipsam doloribus asperiores
-                  nemo dolorem. Sunt labore repudiandae praesentium eveniet
-                  adipisci corporis ipsa. Iure natus molestias laudantium
-                  optio recusandae, similique facere omnis!
+                    .
                 </p>
               </div>
             </div>
@@ -254,7 +243,7 @@
           >
             Close
           </button>
-          <button type="button" class="btn btn-primary">Save changes</button>
+          <a href="https://github.com/cassidymanuel01/navexample.git" class="btn btn-primary ">GitHub</a>
         </div>
       </div>
     </div>
@@ -270,7 +259,7 @@
         <div class="modal-dialog mw-100 p-5">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Project 4</h5>
+              <h5 class="modal-title" id="exampleModalLabel">Group Webpage</h5>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -278,13 +267,13 @@
                   <div class="row">
                       <div class="col-md-6">
                         <img class="img-fluid"
-                        src="https://picsum.photos/400/750?random=4"
+                        src="./images/website.png"
                          />
                       </div>
                       <div class="col-md-6 text-start">
-                          <h4>Project 4</h4>
+                          <h4>Group Webpage</h4>
                         <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore dicta id vel explicabo voluptas cum commodi delectus neque repellat distinctio corrupti obcaecati fuga sequi suscipit, earum ipsam ad labore. Sequi.
+                            .
                         </p>
                       </div>
                   </div>
@@ -292,7 +281,7 @@
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+              <a href="https://github.com/Emivw/college1" class="btn btn-primary ">GitHub</a>
             </div>
           </div>
         </div>
@@ -309,7 +298,7 @@
       <div class="modal-dialog mw-100 p-5">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Project 5</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Mock Portfolio</h5>
             <button
               type="button"
               class="btn-close"
@@ -323,19 +312,13 @@
                 <div class="col-md-6">
                   <img
                     class="img-fluid"
-                    src="https://picsum.photos/400?random=5"
+                    src="./images/portfolio.png"
                   />
                 </div>
                 <div class="col-md-6">
-                  <h4>Project 5</h4>
+                  <h4>Mock Portfolio</h4>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Eveniet facere officiis, impedit esse fugit reprehenderit
-                    sit, nostrum possimus veritatis quisquam harum quas quo
-                    rerum beatae obcaecati qui, ex ipsam doloribus asperiores
-                    nemo dolorem. Sunt labore repudiandae praesentium eveniet
-                    adipisci corporis ipsa. Iure natus molestias laudantium
-                    optio recusandae, similique facere omnis!
+                    .
                   </p>
                 </div>
               </div>
@@ -349,235 +332,11 @@
             >
               Close
             </button>
-            <button type="button" class="btn btn-primary">Save changes</button>
+            <a href="https://github.com/cassidymanuel01/portfolio.git" class="btn btn-primary ">GitHub</a>
           </div>
         </div>
       </div>
     </div>
-      <!-- model 6 -->
-      <div
-      class="modal fade"
-      id="exampleModal6"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog mw-100 p-5">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Project 6</h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-6">
-                  <img
-                    class="img-fluid"
-                    src="https://picsum.photos/600/400?random=6"
-                  />
-                </div>
-                <div class="col-md-6">
-                  <h4>Project 6</h4>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Eveniet facere officiis, impedit esse fugit reprehenderit
-                    sit, nostrum possimus veritatis quisquam harum quas quo
-                    rerum beatae obcaecati qui, ex ipsam doloribus asperiores
-                    nemo dolorem. Sunt labore repudiandae praesentium eveniet
-                    adipisci corporis ipsa. Iure natus molestias laudantium
-                    optio recusandae, similique facere omnis!
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-bs-dismiss="modal"
-            >
-              Close
-            </button>
-            <button type="button" class="btn btn-primary">Save changes</button>
-          </div>
-        </div>
-      </div>
-    </div>
-      <!-- model 7 -->
-      <div
-      class="modal fade"
-      id="exampleModal7"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog mw-100 p-5">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Project 7</h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-6">
-                  <img
-                    class="img-fluid"
-                    src="https://picsum.photos/700?random=7"
-                  />
-                </div>
-                <div class="col-md-6">
-                  <h4>Project 7</h4>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Eveniet facere officiis, impedit esse fugit reprehenderit
-                    sit, nostrum possimus veritatis quisquam harum quas quo
-                    rerum beatae obcaecati qui, ex ipsam doloribus asperiores
-                    nemo dolorem. Sunt labore repudiandae praesentium eveniet
-                    adipisci corporis ipsa. Iure natus molestias laudantium
-                    optio recusandae, similique facere omnis!
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-bs-dismiss="modal"
-            >
-              Close
-            </button>
-            <button type="button" class="btn btn-primary">Save changes</button>
-          </div>
-        </div>
-      </div>
-    </div>
-      <!-- model 8 -->
-      <div
-      class="modal fade"
-      id="exampleModal8"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog mw-100 p-5">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Project 8</h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-6">
-                  <img
-                    class="img-fluid"
-                    src="https://picsum.photos/750/450?random=8"
-                  />
-                </div>
-                <div class="col-md-6">
-                  <h4>Project 8</h4>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Eveniet facere officiis, impedit esse fugit reprehenderit
-                    sit, nostrum possimus veritatis quisquam harum quas quo
-                    rerum beatae obcaecati qui, ex ipsam doloribus asperiores
-                    nemo dolorem. Sunt labore repudiandae praesentium eveniet
-                    adipisci corporis ipsa. Iure natus molestias laudantium
-                    optio recusandae, similique facere omnis!
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-bs-dismiss="modal"
-            >
-              Close
-            </button>
-            <button type="button" class="btn btn-primary">Save changes</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- model 9 -->
-    <div
-    class="modal fade"
-    id="exampleModal9"
-    tabindex="-1"
-    aria-labelledby="exampleModalLabel"
-    aria-hidden="true"
-  >
-    <div class="modal-dialog mw-100 p-5">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Project 9</h5>
-          <button
-            type="button"
-            class="btn-close"
-            data-bs-dismiss="modal"
-            aria-label="Close"
-          ></button>
-        </div>
-        <div class="modal-body">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-6">
-                <img
-                  class="img-fluid"
-                  src="https://picsum.photos/600?random=9"
-                />
-              </div>
-              <div class="col-md-6">
-                <h4>Project 9</h4>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Eveniet facere officiis, impedit esse fugit reprehenderit
-                  sit, nostrum possimus veritatis quisquam harum quas quo
-                  rerum beatae obcaecati qui, ex ipsam doloribus asperiores
-                  nemo dolorem. Sunt labore repudiandae praesentium eveniet
-                  adipisci corporis ipsa. Iure natus molestias laudantium
-                  optio recusandae, similique facere omnis!
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="modal-footer">
-          <button
-            type="button"
-            class="btn btn-secondary"
-            data-bs-dismiss="modal"
-          >
-            Close
-          </button>
-          <button type="button" class="btn btn-primary">Save changes</button>
-        </div>
-      </div>
-    </div>
-  </div>
 
  <footer class="bg-primary text-white text-center ps-5 pe-4 pt-4 pb-4 fw-bold">
   <p>Copyright &copy;2022

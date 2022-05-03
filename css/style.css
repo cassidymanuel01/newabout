@@ -43,7 +43,7 @@
 
     .project-container img{
         max-height: 400px;
-        max-width: 100%;
+        max-width: 300px;
         flex-grow: 1;
         object-fit: cover;
     }
